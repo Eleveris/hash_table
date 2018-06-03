@@ -138,6 +138,7 @@ bool hash_table::get_key(int element, int *key) {
 bool hash_table::search(int element, int *key, list **element_list) {
     list *active_list;
     active_list = this->hash[*key];
+    if (active_list != NULL)
     while (1) {
         if (active_list->value == element) {
             *element_list = active_list;
@@ -146,6 +147,7 @@ bool hash_table::search(int element, int *key, list **element_list) {
         else if (active_list->next != NULL) active_list = active_list->next;
         else return false;
     }
+    else return false;
 }
 
 hash_table::~hash_table() {

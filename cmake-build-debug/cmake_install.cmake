@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/User/CLionProjects/hash_table
+# Install script for directory: D:/labs/hash_table/hash_table
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/User/CLionProjects/hash_table/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/labs/hash_table/hash_table/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
